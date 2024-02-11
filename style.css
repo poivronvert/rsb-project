@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0
+}
+
+header, section{
+    background-color:#FEF8EB;
+    border: 5px #574645 solid;
+    
+}
+
+/*統一設定內文的字體*/
+.html, body {
+font-size: 16px;
+font-family: "Helvetica Neue", "PingFang TC", "Heiti TC", 微軟正黑體, sans-serif;
+line-height: 1.75;
+}
+/*統一設定標題字重字體行距*/
+.h1, h2, h3, h4, h5, h6 {
+font-weight: 600;
+font-family: "Helvetica Neue", "PingFang TC", "Heiti TC", "Adobe 繁黑體 Std", "AdobeFanHeitiStd-Bold", "微軟正黑體", sans-serif;
+line-height: 1.5;
+}
+
+.article-content {
+    color: #666;
+    line-height: 1.75;
+    font-size: 18px;
+
+    h1, h2, h3, h4, h5, h6 {/*重新定義標題邊界及字體大小*/
+        margin-top: 1em;
+        margin-bottom: .6em;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.7rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1.2rem;
+    }
+    h6 {
+        font-size: 1rem;
+    }
+    p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    hr {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    pre {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
