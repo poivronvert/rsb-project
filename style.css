@@ -3,10 +3,8 @@
     margin:0
 }
 
-header, section{
-    background-color:#FEF8EB;
-    border: 5px #574645 solid;
-    
+header, body{
+    background-color:black;
 }
 
 /*統一設定內文的字體*/
@@ -23,13 +21,11 @@ line-height: 1.5;
 }
 
 .article-content {
-    color: #666;
+    color: white;
     line-height: 1.75;
     font-size: 18px;
 
     h1, h2, h3, h4, h5, h6 {/*重新定義標題邊界及字體大小*/
-        margin-top: 1em;
-        margin-bottom: .6em;
     }
     h1 {
         font-size: 2.5rem;

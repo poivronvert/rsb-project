@@ -1,19 +1,9 @@
 .frame{
-    display:none;
-    padding:10px;
-    margin:10px;
+    margin:0px 250px 50px;
+    padding: 30px;
+    text-align:justify;
 }
-.right{
-    flex:none;/*固定大小*/
-    width:200px;
-}
-.left{
-    justify-content:flex-end;/*水平對齊*/
-    flex:auto;/*自動把剩下的空間填滿*/
-}
-.item{
-    flex:none;
-    width:100px;
-    margin-right:10px;
-    text-align:center;
-}
+.title{
+    color: black;
+    background-color:#75FBFD;
+    text-align:center
