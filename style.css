@@ -3,9 +3,6 @@
     margin:0
 }
 
-header, body{
-    background-color:black;
-}
 
 /*統一設定內文的字體*/
 .html, body {
@@ -21,12 +18,19 @@ line-height: 1.5;
 }
 
 .article-content {
-    color: white;
     line-height: 1.75;
     font-size: 18px;
+    text-align: justify;
+    background-color: black;
+    color:white;
 
-    h1, h2, h3, h4, h5, h6 {/*重新定義標題邊界及字體大小*/
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 1em;
+        margin-bottom: .6em;
     }
+}
+   /*重新定義標題邊界及字體大小*/
+    
     h1 {
         font-size: 2.5rem;
     }
@@ -48,13 +52,28 @@ line-height: 1.5;
     p {
         margin-top: 1em;
         margin-bottom: 1em;
+}
+
+/* 電腦*/
+@media (min-width: 768px) {
+    .frame {
+      width: 60%;
+      margin: 0 auto;
     }
-    hr {
-        margin-top: 50px;
-        margin-bottom: 50px;
+  }
+  
+  /* 手機 */
+  @media (max-width: 767px) {
+    .frame {
+      width: 90%;
+      margin: 0 auto;
     }
-    pre {
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
+  }
+  
+
+.title{
+    color: black;
+    background-color:#75FBFD;
+    text-align:center;
+    border-radius: 5px;
 }
