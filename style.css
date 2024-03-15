@@ -17,6 +17,9 @@ font-family: "Helvetica Neue", "PingFang TC", "Heiti TC", "Adobe 繁黑體 Std",
 line-height: 1.5;
 }
 
+a {
+    color: white;
+}
 .article-content {
     line-height: 1.75;
     font-size: 18px;
@@ -53,12 +56,23 @@ line-height: 1.5;
         margin-top: 1em;
         margin-bottom: 1em;
 }
-
+.position_absolute{
+    font-size: medium;
+    padding: 20px 0 20px 20px;
+}
 /* 電腦*/
 @media (min-width: 768px) {
     .frame {
       width: 60%;
       margin: 0 auto;
+    }
+    .position_absolute {
+        position:fixed;
+        width:350px;
+        height:175px;
+        left:10px;
+        top:25%;
+        bottom:125px;
     }
   }
   
