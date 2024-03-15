@@ -18,8 +18,15 @@ line-height: 1.5;
 }
 
 a {
+    text-decoration: none;
     color: white;
 }
+
+a:hover{
+    text-decoration:underline;
+    font-weight: bold
+}
+
 .article-content {
     line-height: 1.75;
     font-size: 18px;
